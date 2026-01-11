@@ -16,7 +16,7 @@ npm run dev
 
 ## 配置內容
 
-# 身分驗證
+### 身分驗證
 
 - `better-auth`
 - `prisma` / `mongodb`
