@@ -21,6 +21,12 @@ npm run dev
 - `better-auth`
 - `prisma` / `mongodb`
 
+### 預設路由
+
+- `/sign-up`
+- `/sign-in`
+- `/dashboard`
+
 ### 格式化
 
 - `prettier`
