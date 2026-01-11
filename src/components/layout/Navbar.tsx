@@ -3,14 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { authClient } from "@/lib/auth-client";
+import { useSession, signIn } from "@/lib/auth-client";
 import { Menu, X } from "lucide-react";
 
 const navigation = [{ name: "", href: "/" }];
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const { data: session } = authClient.useSession();
+  const { data: session } = useSession();
 
   return (
     <nav className="bg-background/95 sticky top-0 z-50 mx-auto w-full border-b border-gray-300 backdrop-blur dark:border-gray-700">
@@ -73,7 +73,7 @@ export default function Navbar() {
             </div>
           ) : (
             <button
-              onClick={() => authClient.signIn.social({ provider: "google" })}
+              onClick={() => signIn.social({ provider: "google" })}
               className="text-sm font-semibold text-gray-900 hover:text-gray-700"
             >
               登入

@@ -5,7 +5,7 @@
 執行下方指令，透過 `create-next-app` 直接安裝。
 
 ```bash
-npx create-next-app@latest --example https://github.com/yd-tw/next-template
+npx create-next-app@latest --example https://github.com/yd-tw/next-auth-template
 ```
 
 接著運行開發伺服器即可。
@@ -16,6 +16,11 @@ npm run dev
 
 ## 配置內容
 
+# 身分驗證
+
+- `better-auth`
+- `prisma` / `mongodb`
+
 ### 格式化
 
 - `prettier`
@@ -24,14 +29,11 @@ npm run dev
 ### 常用套件
 
 - `@next/third-parties`
-- `next-auth`
 - `lucide-react`
 - `motion`
-- `react-type-animation`
 
 ### 預設組件
 
-- `HeroSection`
 - `Navbar`
 - `Footer`
-- `SessionProvider`
+- `HeroSection`
