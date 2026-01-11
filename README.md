@@ -1,4 +1,4 @@
-這是 [Next.js](https://nextjs.org) 專案的模板，依照 YD 開發專案累積的經驗所構建，比預設的 `create-next-app` 添加更多常用的套件，詳細添加的內容可以參考下方列表。
+這是 [Next.js](https://nextjs.org) 專案模板，依照 YD 開發專案累積的經驗所構建，比預設的 `create-next-app` 添加更多常用的套件，主要圍繞在身分驗證並新增 `HeroSection` 組件，詳細添加的內容可以參考下方列表。
 
 ## Getting Started
 
