@@ -57,7 +57,7 @@ export default function HeroSection() {
             className="flex flex-col items-center justify-center gap-4 sm:flex-row"
           >
             <Link
-              href="/sign-in"
+              href="/sign-up"
               className="group bg-primary text-primary-foreground hover:bg-primary/90 hover:shadow-primary/25 inline-flex cursor-pointer items-center justify-center rounded-full px-8 py-4 transition-all hover:shadow-lg"
             >
               <Image
