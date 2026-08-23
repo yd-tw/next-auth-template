@@ -28,7 +28,7 @@ export default function SignUpPage() {
   }
 
   return (
-    <main className="max-w-md mx-auto p-6 space-y-4">
+    <main className="mx-auto max-w-md space-y-4 p-6">
       <h1 className="text-2xl font-bold">Sign Up</h1>
 
       {error && <p className="text-red-500">{error}</p>}
@@ -57,7 +57,7 @@ export default function SignUpPage() {
         />
         <button
           type="submit"
-          className="w-full bg-white text-black font-medium rounded-md px-4 py-2 hover:bg-gray-200"
+          className="w-full rounded-md bg-white px-4 py-2 font-medium text-black hover:bg-gray-200"
         >
           Create Account
         </button>
